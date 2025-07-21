@@ -3,7 +3,6 @@ const router = express.Router();
 const employeesController = require('../../controllers/employeesController');
 const ROLES_LIST = require ('../../config/roles_list');
 const verifyRoles = require ('../../middleware/verifyRoles');
-const verfiyJWT = require ('../../middleware/verifyJWT')
 
 
 
@@ -11,7 +10,6 @@ router.get('/getALL', employeesController.getAllEmployees);
 
 router.post(
     '/Create',
-    verifyJWT,
     verifyRoles(ROLES_LIST.Admin, ROLES_LIST.Editor),
     employeesController.createNewEmployee
 );
