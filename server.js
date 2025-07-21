@@ -47,6 +47,10 @@ app.use("/logout", require("./routes/api/logout"));
 // app.use(verifyJWT);
 app.use("/employees", require("./routes/api/employees"));
 
+app.get('/', (req, res) => {
+  res.send('🎉 Welcome to Async CRUD API – Public Access');
+});
+
 //app.use('/')
 app.all(/.*/, (req, res) => {
   res.status(404);
