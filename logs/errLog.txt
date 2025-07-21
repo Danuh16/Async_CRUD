@@ -1,0 +1,23 @@
+2025/07/14	11:42:42	94fbf2ca-a85b-4751-9607-b857179ef825	Error: Not allowed by CORS
+2025/07/14	11:42:42	a01bf53c-755e-459d-a067-61cd89537c3b	Error: Not allowed by CORS
+2025/07/15	11:15:28	72b857e5-5939-4d03-a519-10ae2693db4e	TypeError: Cannot read properties of undefined (reading 'firstname')
+2025/07/16	11:12:50	d1381ac4-4031-410a-8176-8a6b4ef968a0	TypeError: jwt.signed is not a function
+2025/07/16	11:14:07	15fa989d-4a85-4c60-8ca5-619931ed5565	ReferenceError: performServerHandshake is not defined
+2025/07/16	11:14:39	d905e5c7-1620-4c26-8a9d-5d116fddb623	TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Array'
+    |     index 1 -> object with constructor 'Object'
+    |     property 'usersDB' -> object with constructor 'Object'
+    --- property 'users' closes the circle
+2025/07/16	11:16:45	6fdabbc7-cfe7-4ccc-8d68-2c96dd00363c	TypeError: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined
+2025/07/16	11:19:16	6c13c6ee-18b1-4364-9b60-275cea333838	TypeError: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined
+2025/07/16	15:34:34	5453a74d-aa9a-4e6e-bee3-165d65f3f32b	TypeError: Cannot read properties of undefined (reading 'map')
+2025/07/16	15:36:01	f22579bb-4d7a-470c-90c1-9c123ccebd13	TypeError: Cannot read properties of undefined (reading 'map')
+2025/07/17	12:38:50	8d29bcf3-39eb-452a-ab60-93ddc7752438	TypeError: req.status is not a function
+2025/07/17	12:39:22	1af4fa86-2008-46cf-93ea-a2a17307c097	TypeError: req.sendStatus is not a function
+2025/07/17	12:39:52	c0597c96-36da-455e-bd94-bba10bf07bda	TypeError: req.sendStatus is not a function
+2025/07/21	09:49:12	b8795c6c-f235-41d1-9aef-1d39977aa69f	SyntaxError: Bad control character in string literal in JSON at position 19 (line 2 column 18)
+2025/07/21	10:36:53	27f11cb2-a7f0-435a-9151-a86a82db1d3f	CastError: Cast to ObjectId failed for value "3" (type string) at path "_id" for model "Employee"
+2025/07/21	10:37:22	0a0eff39-275e-49ad-836a-f7067d789571	SyntaxError: Expected ',' or '}' after property value in JSON at position 10 (line 1 column 11)
+2025/07/21	10:38:00	d590b1cb-dac8-479f-94ab-0977018c0483	CastError: Cast to ObjectId failed for value "3" (type string) at path "_id" for model "Employee"
+2025/07/21	10:41:21	16d46bd7-0a64-4e2b-b5fb-4ca5a57a18a3	CastError: Cast to ObjectId failed for value ":id" (type string) at path "_id" for model "Employee"
+2025/07/21	10:41:22	fd01e3cf-faba-48de-80dc-11ad84d8f32a	CastError: Cast to ObjectId failed for value ":id" (type string) at path "_id" for model "Employee"
